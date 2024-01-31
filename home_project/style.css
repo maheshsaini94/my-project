@@ -1,0 +1,148 @@
+.content
+{
+    display: flex;
+    text-align: justify;
+}
+.sticky {
+    /* Sticky & blur */
+    /* position: sticky;
+    top: 0; */
+    
+    
+    /* Layout */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: rgba(89, 68, 68, 0.2);
+    border-bottom: 1px solid rgba(238, 238, 238, 0.3); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:10px 30px ;
+    background-color:rgba(38,36,75,255);
+    color: white;
+    height: 210px;
+    margin-top: -18px;
+  }
+  
+  
+  nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 5px;
+    color: #222;
+  }
+  
+  header b {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 34px;
+    font-weight: 800;
+    background-color:rgba(38,36,75,255);
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  header ul{
+    background-color:rgba(38,36,75,255);    display: flex;
+    justify-content:end;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    color: white;
+  }
+  
+  header svg{
+    fill: white;
+    max-height: 2rem;
+    aspect-ratio:1;
+    display: block;
+  }
+  
+  header.active{
+    position: sticky;
+    top: var(--_top);
+    background-color:pink;
+    
+  }
+  
+  header svg:hover, ul li:hover{
+    fill: yellow;
+    color: yellow;
+    cursor:pointer;
+  }
+  
+  ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  .select
+  {
+    background-color: aqua;
+    color: #131313;
+    padding: 20px;
+  }
+  .Blockchin
+  {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50pt;
+  }
+  .Blockchain
+  {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20pt;
+  }
+  .main
+  {
+    background-color: rgb(32, 34, 76);
+    color: antiquewhite;
+    padding-bottom: 80PX;
+  }
+  .link a{
+    color: white;
+    font-size: 20pt;
+  }
+  h2{
+    text-align: center;
+    margin-top:120px;
+    font-size: 25pt;
+    font-weight: bolder;
+    
+  }
+  .Conflux{
+    padding: 100px;
+    background-color:rgba(241,244,249,255);
+  }
+  .one
+  {
+    font-size: 20pt;
+    font-weight: bolder;
+  }
+  .Token
+  {
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bolder;
+    margin-top: 40px;
+  }
+  .toky
+  {
+    text-align: center;
+    font-size:17pt;
+    margin-top: 23px;
+    font-weight: 400;
+    padding-left: 40px;
+  }
+ 
+ 
